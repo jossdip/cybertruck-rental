@@ -1,90 +1,94 @@
 export const images = {
-  hero: "https://images.pexels.com/photos/24589308/pexels-photo-24589308/free-photo-of-tesla-cybertruck-on-street-in-rain.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  gallery: [
-    {
-      url: "https://images.pexels.com/photos/31701330/pexels-photo-31701330/free-photo-of-cybertruck-and-urban-skyline-panorama.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      alt: "Cybertruck et skyline urbaine",
-      category: "exterior"
-    },
-    {
-      url: "https://images.pexels.com/photos/19052331/pexels-photo-19052331/free-photo-of-tesla-cybertruck-on-road.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      alt: "Cybertruck sur la route",
-      category: "interior"
-    },
-    {
-      url: "https://images.pexels.com/photos/28771867/pexels-photo-28771867/free-photo-of-detailed-close-up-of-modern-cybertruck-design.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      alt: "Détails du design Cybertruck",
-      category: "performance"
-    },
-    {
-      url: "https://images.pexels.com/photos/31225374/pexels-photo-31225374/free-photo-of-futuristic-electric-truck-in-new-york-showroom.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      alt: "Cybertruck en showroom",
-      category: "technology"
-    }
-  ],
-  features: [
-    {
-      url: "https://images.pexels.com/photos/28468171/pexels-photo-28468171/free-photo-of-cybertruck-with-dog-overlooking-lake-tahoe.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      alt: "Cybertruck au lac Tahoe",
-      category: "innovation"
-    },
-    {
-      url: "https://images.pexels.com/photos/28468165/pexels-photo-28468165/free-photo-of-tesla-cybertruck-with-dog-crate-in-mountain-landscape.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      alt: "Cybertruck en montagne",
-      category: "exclusivity"
-    },
-    {
-      url: "https://images.pexels.com/photos/30364232/pexels-photo-30364232/free-photo-of-classic-and-modern-cars-on-santa-monica-street.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      alt: "Cybertruck à Santa Monica",
-      category: "service"
-    }
-  ],
-  specs: {
-    performance: "https://images.pexels.com/photos/30163134/pexels-photo-30163134/free-photo-of-futuristic-vehicle-display-in-ankara-cityscape.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    technology: "https://images.pexels.com/photos/31701330/pexels-photo-31701330/free-photo-of-cybertruck-and-urban-skyline-panorama.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  hero: {
+    main: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2940&auto=format&fit=crop',
+    overlay: 'https://images.unsplash.com/photo-1557683311-eac922347aa1?q=80&w=2940&auto=format&fit=crop'
   },
-  parallax: [
+  about: {
+    office: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2940&auto=format&fit=crop',
+    team: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2940&auto=format&fit=crop',
+    leadership: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2940&auto=format&fit=crop'
+  },
+  values: {
+    innovation: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2944&auto=format&fit=crop',
+    excellence: 'https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?q=80&w=2940&auto=format&fit=crop',
+    impact: 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=2940&auto=format&fit=crop'
+  },
+  services: [
     {
-      url: "https://images.pexels.com/photos/24589308/pexels-photo-24589308/free-photo-of-tesla-cybertruck-on-street-in-rain.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      alt: "Parallax 1",
-      speed: 0.5
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2940&auto=format&fit=crop',
+      alt: 'Strategic Consulting'
     },
     {
-      url: "https://images.pexels.com/photos/28468171/pexels-photo-28468171/free-photo-of-cybertruck-with-dog-overlooking-lake-tahoe.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      alt: "Parallax 2",
-      speed: 0.3
+      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop',
+      alt: 'Technology Solutions'
     },
     {
-      url: "https://images.pexels.com/photos/28468165/pexels-photo-28468165/free-photo-of-tesla-cybertruck-with-dog-crate-in-mountain-landscape.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      alt: "Parallax 3",
-      speed: 0.7
+      image: 'https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?q=80&w=2940&auto=format&fit=crop',
+      alt: 'Global Operations'
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2940&auto=format&fit=crop',
+      alt: 'Investment Management'
+    }
+  ],
+  team: [
+    {
+      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2944&auto=format&fit=crop',
+      alt: 'CEO Portrait'
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2938&auto=format&fit=crop',
+      alt: 'CFO Portrait'
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&auto=format&fit=crop',
+      alt: 'CTO Portrait'
     }
   ],
   backgrounds: {
-    features: "https://images.pexels.com/photos/31701330/pexels-photo-31701330/free-photo-of-cybertruck-and-urban-skyline-panorama.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    specs: "https://images.pexels.com/photos/24589308/pexels-photo-24589308/free-photo-of-tesla-cybertruck-on-street-in-rain.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    gallery: "https://images.pexels.com/photos/28468171/pexels-photo-28468171/free-photo-of-cybertruck-with-dog-overlooking-lake-tahoe.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    contact: "https://images.pexels.com/photos/28468165/pexels-photo-28468165/free-photo-of-tesla-cybertruck-with-dog-crate-in-mountain-landscape.jpeg?auto=compress&cs=tinysrgb&w=1200"
-  }
-};
-
-export const video = {
-  showroom: {
-    url: "https://player.vimeo.com/external/19343052.sd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=164&oauth2_token_id=57447761",
-    poster: "https://images.pexels.com/photos/31225374/pexels-photo-31225374/free-photo-of-futuristic-electric-truck-in-new-york-showroom.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    alt: "Cybertruck en showroom - Vidéo"
+    stats: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2940&auto=format&fit=crop&blur=2',
+    contact: 'https://images.unsplash.com/photo-1497366412874-3415097a27e7?q=80&w=2940&auto=format&fit=crop'
   }
 };
 
 export const animations = {
   fadeInUp: {
-    hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 0, y: 30 },
     visible: { 
       opacity: 1, 
       y: 0,
       transition: {
         duration: 0.6,
-        ease: [0.22, 1, 0.36, 1]
+        ease: 'easeOut'
+      }
+    }
+  },
+  fadeIn: {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1,
+      transition: {
+        duration: 0.6
+      }
+    }
+  },
+  scaleUp: {
+    hidden: { opacity: 0, scale: 0.95 },
+    visible: { 
+      opacity: 1, 
+      scale: 1,
+      transition: {
+        duration: 0.5
+      }
+    }
+  },
+  slideIn: {
+    hidden: { opacity: 0, x: -20 },
+    visible: { 
+      opacity: 1, 
+      x: 0,
+      transition: {
+        duration: 0.5
       }
     }
   },
@@ -93,32 +97,77 @@ export const animations = {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1,
-        delayChildren: 0.2
+        staggerChildren: 0.1
       }
     }
+  }
+};
+
+export const stats = [
+  {
+    value: '3',
+    label: 'Continents'
   },
-  scaleUp: {
-    hidden: { opacity: 0, scale: 0.8 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        duration: 0.6,
-        ease: [0.22, 1, 0.36, 1]
-      }
-    }
+  {
+    value: '150+',
+    label: 'Strategic Partners'
   },
-  slideIn: {
-    hidden: { opacity: 0, x: -50 },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        duration: 0.6,
-        ease: [0.22, 1, 0.36, 1]
-      }
-    }
+  {
+    value: '12',
+    label: 'Industries Served'
+  },
+  {
+    value: '24/7',
+    label: 'Global Operations'
+  }
+];
+
+export const services = [
+  {
+    title: 'Strategic Consulting',
+    description: 'Transforming businesses through innovative strategies and solutions.',
+    icon: '📊'
+  },
+  {
+    title: 'Technology Solutions',
+    description: 'Cutting-edge technology implementation and digital transformation.',
+    icon: '💻'
+  },
+  {
+    title: 'Global Operations',
+    description: 'Optimizing operations across international markets.',
+    icon: '🌐'
+  },
+  {
+    title: 'Investment Management',
+    description: 'Expert financial planning and investment strategies.',
+    icon: '📈'
+  }
+];
+
+export const executives = [
+  {
+    name: 'John Watteville',
+    position: 'Chief Executive Officer',
+    quote: 'Leading innovation in global markets'
+  },
+  {
+    name: 'Sarah Chen',
+    position: 'Chief Financial Officer',
+    quote: 'Driving sustainable growth'
+  },
+  {
+    name: 'Marc Laurent',
+    position: 'Chief Technology Officer',
+    quote: 'Shaping the future of technology'
+  }
+];
+
+export const video = {
+  showroom: {
+    url: "https://player.vimeo.com/external/19343052.sd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=164&oauth2_token_id=57447761",
+    poster: "https://images.pexels.com/photos/31225374/pexels-photo-31225374/free-photo-of-futuristic-electric-truck-in-new-york-showroom.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    alt: "Cybertruck en showroom - Vidéo"
   }
 };
 

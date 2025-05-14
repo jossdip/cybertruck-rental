@@ -1,8 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['images.unsplash.com', 'tesla-cdn.thron.com', 'cdn.motor1.com', 'digitalassets.tesla.com', 'media.tesla.com', 'cdn.carbuzz.com', 'images.pexels.com'],
+    domains: ['images.unsplash.com'],
   },
-};
+  async rewrites() {
+    return [
+      {
+        source: '/rentals/:path*',
+        destination: 'https://rentals.wattevillegroup.ch/:path*',
+      },
+    ]
+  }
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
